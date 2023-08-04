@@ -5,39 +5,39 @@
 </head>
 <body>
     <h2><center>產品資料表</center></h2>
-    <form id="form1">
+    <form id="form1" method="post" action="product.php">
     <p>
-        <label>請輸入產品編號</label>
-        <input type="text" autofocus required>
+        <label>產品編號</label>
+        <input type="text" name="Pd_Num" autofocus required>
     </p>
     <p>
-        <label>請輸入類別編號</label>
-        <input type="text">
+        <label>類別編號</label>
+        <input type="text" name="Cat_Num">
     </p>
     </p>
     <p>
-        <label>請輸入供應商編號</label>
-        <input type="text">
+        <label>供應商編號</label>
+        <input type="text" name="Sup_Num">
     </p>
     <p>
-        <label>請輸入產品名稱</label>
-        <input type="text">
+        <label>產品名稱</label>
+        <input type="text" name="Pd_Name">
     </p>
     <p>
-        <label>請輸入建議單價</label>
-        <input type="text">
+        <label>建議單價</label>
+        <input type="text" name="Suggestion_Price">
     </p>
     <p>
-        <label>請輸入平均成本</label>
-        <input type="text">
+        <label>平均成本</label>
+        <input type="text" name="Avg_Cost">
     </p>
     <p>
-        <label>請輸入庫存量</label>
-        <input type="text">
+        <label>庫存量</label>
+        <input type="text" name="INVENTORY">
     </p>
     <p>
-        <label>請輸入安全存量</label>
-        <input type="text">
+        <label>安全存量</label>
+        <input type="text" name="Safe_Amount">
     </p>
     <input type="submit" value="送出">
     </form>
